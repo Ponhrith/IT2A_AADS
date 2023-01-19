@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -50,6 +51,27 @@ namespace BubbleSort
         public static void BubbleSortAscendingImproved(int[] input, int length)
         {
             // Your code
+            var itemMoved = false;
+            do
+            {
+                itemMoved = false;
+                //loop through every element of the array
+                for (int i = 0;  i < (length - 1); i++)
+                {
+                    for (int j = i + 1; j < length; j++)
+                    {
+                        //compare if the element is greater than the next element, swap them
+                        if (input[i] > input[i + 1])
+                        {
+                            //if true swap the elements
+                            int lowerValue = input[i + 1];
+                            input[i + 1] = input[i];
+                            input[i] = lowerValue;
+                            itemMoved = true;//item has moved
+                        }
+                    }
+                }
+            } while (itemMoved);//if item has moved start from the beginning again
         }
 
         public static void BubbleSortDesending(int[] input, int length)
@@ -91,7 +113,7 @@ namespace BubbleSort
 
             //BubbleSort(intArray, length);
             //BubbleSortAscendingImproved(intArray, length);
-            BubbleSortAscending(intArray, length);
+            //BubbleSortAscending(intArray, length);
             //BubbleSortDesending(intArray, length);
             Console.WriteLine("The sorted array:");
             DisplayArray(intArray, length);
