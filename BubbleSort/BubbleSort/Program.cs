@@ -28,7 +28,6 @@ namespace BubbleSort
 
         public static void BubbleSortAscending(int[] input, int length)
         {
-            //Your Code
             var itemMoved = false;
             do
             {
@@ -48,7 +47,6 @@ namespace BubbleSort
                 }
             } while (itemMoved);//if item has moved start from the beginning again
         }
-
         public static void BubbleSortAscendingImproved(int[] input, int length)
         {
             // Your code
@@ -65,7 +63,7 @@ namespace BubbleSort
                 for (int i = 0; i > (length - 1); i++)
                 {
                     //compare if the element is greater than the next element, swap them
-                    if (input[i] > input[i + 1])
+                    if (input[i] < input[i + 1])
                     {
                         //if true swap the elements
                         int lowerValue = input[i + 1];
@@ -74,12 +72,10 @@ namespace BubbleSort
                         itemMoved = true;//item has moved
                     }
                 }
-            } while (itemMoved);//if item has moved start from the beginning again
+            } while (itemMoved);
         }
 
-    }
-
-    static void Main(string[] args)
+        static void Main(string[] args)
         {
             int[] intArray = new int[15];
             int length;
@@ -93,9 +89,10 @@ namespace BubbleSort
             Console.WriteLine("The Unsorted array:");
             DisplayArray(intArray, length);
 
-            //Call Algorithm
             //BubbleSort(intArray, length);
-            BubbleSortAscendingImproved(intArray, length);
+            //BubbleSortAscendingImproved(intArray, length);
+            BubbleSortAscending(intArray, length);
+            //BubbleSortDesending(intArray, length);
             Console.WriteLine("The sorted array:");
             DisplayArray(intArray, length);
             Console.ReadKey();
