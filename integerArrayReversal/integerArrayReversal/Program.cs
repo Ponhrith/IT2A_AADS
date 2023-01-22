@@ -26,24 +26,16 @@ namespace integerArrayReversal
         static void ArrayReversal(int[] intArray, int length)
         {
             // your code
-            var itemMoved = false;
-            do
+            int i = 0;
+            int j = length - 1;
+            while (i < j)
             {
-                itemMoved = false;
-                //loop through every element of the array
-                for (int i = 0; i < (length - 1); i++)
-                {
-                    //compare if the element is greater than the next element, swap them
-                    if (intArray[i] > intArray[i + 1])
-                    {
-                        //if true swap the elements
-                        int lowerValue = intArray[i + 1];
-                        intArray[i + 1] = intArray[i];
-                        intArray[i] = lowerValue;
-                        itemMoved = true;//item has moved
-                    }
-                }
-            } while (itemMoved);//if item has moved start from the beginning again
+                var temp = intArray[i];
+                intArray[i] = intArray[j];
+                intArray[j] = temp;
+                i++;
+                j--;
+            }
 
 
         }
