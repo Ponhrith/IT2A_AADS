@@ -1,0 +1,8 @@
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\bin\Debug\InsertionSort.exe.config
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\bin\Debug\InsertionSort.exe
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\bin\Debug\InsertionSort.pdb
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\obj\Debug\InsertionSort.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\obj\Debug\InsertionSort.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\obj\Debug\InsertionSort.csproj.CoreCompileInputs.cache
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\obj\Debug\InsertionSort.exe
+C:\Coding Projects\IT2A_AADS\BubbleSort\InsertionSort\obj\Debug\InsertionSort.pdb
