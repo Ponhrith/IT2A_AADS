@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "integerArrayReversal", "integerArrayReversal\integerArrayReversal.csproj", "{7694D6CE-A799-418A-9C47-648370357A6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayReversal", "ArrayReversal\ArrayReversal.csproj", "{53074907-91A2-48D0-9867-131A7ED29C5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7694D6CE-A799-418A-9C47-648370357A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7694D6CE-A799-418A-9C47-648370357A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7694D6CE-A799-418A-9C47-648370357A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53074907-91A2-48D0-9867-131A7ED29C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53074907-91A2-48D0-9867-131A7ED29C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53074907-91A2-48D0-9867-131A7ED29C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53074907-91A2-48D0-9867-131A7ED29C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

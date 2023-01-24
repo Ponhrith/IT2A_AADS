@@ -1,0 +1,8 @@
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\bin\Debug\ArrayReversal.exe.config
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\bin\Debug\ArrayReversal.exe
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\bin\Debug\ArrayReversal.pdb
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\obj\Debug\ArrayReversal.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\obj\Debug\ArrayReversal.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\obj\Debug\ArrayReversal.csproj.CoreCompileInputs.cache
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\obj\Debug\ArrayReversal.exe
+C:\Coding Projects\IT2A_AADS\integerArrayReversal\ArrayReversal\obj\Debug\ArrayReversal.pdb
