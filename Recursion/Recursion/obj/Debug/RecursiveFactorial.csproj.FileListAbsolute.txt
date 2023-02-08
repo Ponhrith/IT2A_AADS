@@ -1,0 +1,8 @@
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\bin\Debug\Recursion.exe.config
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\bin\Debug\Recursion.exe
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\bin\Debug\Recursion.pdb
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\obj\Debug\RecursiveFactorial.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\obj\Debug\RecursiveFactorial.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\obj\Debug\RecursiveFactorial.csproj.CoreCompileInputs.cache
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\obj\Debug\Recursion.exe
+C:\Coding Projects\IT2A_AADS\Recursion\Recursion\obj\Debug\Recursion.pdb

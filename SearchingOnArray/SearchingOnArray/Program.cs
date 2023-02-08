@@ -36,7 +36,9 @@ namespace SearchingOnArray
                 else
                     max = mid - 1;
                 if (dataArray[mid] == key)
-                    return mid; //found
+                    return mid;
+                
+                //found
             }
             return -1;
         }
