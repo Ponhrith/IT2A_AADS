@@ -30,13 +30,23 @@ namespace SearchingOnArray
             int max = dataArray.Count() - 1;
             while (min <= max)
             {
-                int mid = (min + max) / 2;
-                if (key > dataArray[mid])
+                //int mid = (min + max) / 2;
+                int mid = min + (max - min) / 2;
+                if ((mid == 0 || dataArray[mid - 1] < key) && dataArray[mid] == key)
+                    return mid;
+                else if (key > dataArray[mid])
                     min = mid + 1;
                 else
                     max = mid - 1;
-                if (dataArray[mid] == key)
-                    return mid;
+
+                
+                
+                //if (key > dataArray[mid])
+                //    min = mid + 1;
+                //else
+                //    max = mid - 1;
+                //if (dataArray[mid] == key)
+                //    return mid;
                 
                 //found
             }
