@@ -37,6 +37,42 @@ namespace PartitionOnly
                 Console.Write("{0,2}, ", intArray[k]);
             Console.WriteLine();
         }
+
+        public int partitionIt (int left, int right)
+        {
+            int pivot = intArray[right];
+            int leftMark = left - 1; //pre incremented
+            int rightMark = right; //pre decremented
+            while (true)
+            {
+                while (intArray[++leftMark] < pivot) ;
+                while (rightMark > 0 && intArray[--rightMark] > pivot) ;
+                if (leftMark >= rightMark) break;
+                else swap(leftMark, rightMark);
+            }
+            swap(leftMark, right);
+            return leftMark;
+        }
+        void swap(int Num1, int Num2)
+        {
+            int temp = intArray[Num1];
+            intArray[Num1] = intArray[Num2];
+            intArray[Num2] = temp;
+              
+        }
+
+        public void recQuickSort(int left, int right)
+        {
+            if (right - left <= 0)
+            {
+                return;
+            }
+            int pivotIndex = partitionIt(left, right);
+            recQuickSort(left, pivotIndex - 1);
+            recQuickSort(pivotIndex + 1, right);
+        }
+
+
     }
 }
 

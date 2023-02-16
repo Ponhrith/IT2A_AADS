@@ -23,10 +23,17 @@ namespace PartitionOnly
 
             myQuickSort = new QSBasic(length);
             myQuickSort.DisplayArray();
+
+            Console.WriteLine("\nAfter quick sort:");
+            myQuickSort.recQuickSort(0, length - 1);
+            myQuickSort.DisplayArray();
+            
             /*
             Console.WriteLine("\nAfter 1st partitioning: ");
             myQuickSort.partitionIt(0, (length - 1));
             myQuickSort.DisplayArray();
+
+
 
             Console.Write("\nPick lower index of 2nd interval: ");
             int lowerIndex = int.Parse(Console.ReadLine());
@@ -35,7 +42,9 @@ namespace PartitionOnly
 
             myQuickSort.partitionIt(lowerIndex, upperIndex);
             myQuickSort.DisplayArray();
+
             */
+
             Console.ReadKey();
         }
     }

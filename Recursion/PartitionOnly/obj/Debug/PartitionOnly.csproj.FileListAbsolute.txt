@@ -1,0 +1,8 @@
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\bin\Debug\PartitionOnly.exe.config
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\bin\Debug\PartitionOnly.exe
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\bin\Debug\PartitionOnly.pdb
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\obj\Debug\PartitionOnly.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\obj\Debug\PartitionOnly.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\obj\Debug\PartitionOnly.csproj.CoreCompileInputs.cache
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\obj\Debug\PartitionOnly.exe
+C:\Coding Projects\IT2A_AADS\Recursion\PartitionOnly\obj\Debug\PartitionOnly.pdb
