@@ -1,0 +1,8 @@
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\bin\Debug\LinkList.exe.config
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\bin\Debug\LinkList.exe
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\bin\Debug\LinkList.pdb
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\obj\Debug\SinglyLinkListCLI.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\obj\Debug\SinglyLinkListCLI.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\obj\Debug\SinglyLinkListCLI.csproj.CoreCompileInputs.cache
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\obj\Debug\LinkList.exe
+C:\Coding Projects\IT2A_AADS\LinkList\LinkList\obj\Debug\LinkList.pdb
