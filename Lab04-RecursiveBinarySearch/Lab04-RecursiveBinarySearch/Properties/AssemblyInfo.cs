@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RecursiveBinarySearch")]
+[assembly: AssemblyTitle("Lab04-RecursiveBinarySearch")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RecursiveBinarySearch")]
+[assembly: AssemblyProduct("Lab04-RecursiveBinarySearch")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("42610ab4-2c92-4ff4-ac21-3bb6308a10c1")]
+[assembly: Guid("cb5f329c-f348-4df6-b00a-8938ab05ba89")]
 
 // Version information for an assembly consists of the following four values:
 //

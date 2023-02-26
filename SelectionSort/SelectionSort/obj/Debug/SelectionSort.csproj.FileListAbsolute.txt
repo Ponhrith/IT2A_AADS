@@ -1,0 +1,3 @@
+C:\Coding Projects\IT2A_AADS\SelectionSort\SelectionSort\obj\Debug\SelectionSort.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\SelectionSort\SelectionSort\obj\Debug\SelectionSort.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\SelectionSort\SelectionSort\obj\Debug\SelectionSort.csproj.CoreCompileInputs.cache

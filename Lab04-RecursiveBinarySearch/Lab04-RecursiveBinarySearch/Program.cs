@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecursiveBinarySearch
+namespace Lab04_RecursiveBinarySearch
 {
     internal class Program
     {
@@ -24,11 +24,20 @@ namespace RecursiveBinarySearch
 
         static int RecursiveBinarySearch(int[] dataArray, int min, int max, int key)
         {
-            
-            if (min > max)
-            {
+           if (min > max)
                 return -1;
+           int mid = (min + max) / 2;
+            if (dataArray[mid] == key)
+            {
+                return mid;
             }
+            else if (dataArray[mid] > key)
+            {
+                return RecursiveBinarySearch(dataArray, min, mid - 1, key);
+            }
+
+            return RecursiveBinarySearch(dataArray, mid + 1, max, key);
+
 
         }
 
@@ -74,3 +83,4 @@ namespace RecursiveBinarySearch
         }
     }
 }
+

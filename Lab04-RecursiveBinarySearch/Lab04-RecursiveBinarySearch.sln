@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveBinarySearch", "RecursiveBinarySearch\RecursiveBinarySearch.csproj", "{42610AB4-2C92-4FF4-AC21-3BB6308A10C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab04-RecursiveBinarySearch", "Lab04-RecursiveBinarySearch\Lab04-RecursiveBinarySearch.csproj", "{CB5F329C-F348-4DF6-B00A-8938AB05BA89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{42610AB4-2C92-4FF4-AC21-3BB6308A10C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42610AB4-2C92-4FF4-AC21-3BB6308A10C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42610AB4-2C92-4FF4-AC21-3BB6308A10C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42610AB4-2C92-4FF4-AC21-3BB6308A10C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5F329C-F348-4DF6-B00A-8938AB05BA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5F329C-F348-4DF6-B00A-8938AB05BA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5F329C-F348-4DF6-B00A-8938AB05BA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5F329C-F348-4DF6-B00A-8938AB05BA89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {13D6052A-61F1-4D3E-AF5F-0EF1D7132461}
+		SolutionGuid = {68BDC95A-08E4-434F-ADC7-C831A334B313}
 	EndGlobalSection
 EndGlobal
