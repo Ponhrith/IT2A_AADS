@@ -1,0 +1,8 @@
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\bin\Debug\RecursiveFibonacci.exe.config
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\bin\Debug\RecursiveFibonacci.exe
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\bin\Debug\RecursiveFibonacci.pdb
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.csproj.CoreCompileInputs.cache
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.exe
+C:\Coding Projects\IT2A_AADS\RecursiveFibonacci\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.pdb
