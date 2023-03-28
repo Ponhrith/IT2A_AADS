@@ -33,5 +33,17 @@ namespace Stack1
             TopCell.Next = FirstCell.Next;
         }
 
+        public PersonCell Peek()
+        {
+            if (this.Next == null) // the list is empty
+            {
+                return null;
+            }
+            else // the list is not empty
+            {
+                return this.Next;
+            }
+        }
+
     }
 }

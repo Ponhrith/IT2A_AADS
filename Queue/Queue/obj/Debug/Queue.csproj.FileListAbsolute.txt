@@ -1,0 +1,8 @@
+C:\Coding Projects\IT2A_AADS\Queue\Queue\bin\Debug\Queue.exe.config
+C:\Coding Projects\IT2A_AADS\Queue\Queue\bin\Debug\Queue.exe
+C:\Coding Projects\IT2A_AADS\Queue\Queue\bin\Debug\Queue.pdb
+C:\Coding Projects\IT2A_AADS\Queue\Queue\obj\Debug\Queue.csproj.AssemblyReference.cache
+C:\Coding Projects\IT2A_AADS\Queue\Queue\obj\Debug\Queue.csproj.SuggestedBindingRedirects.cache
+C:\Coding Projects\IT2A_AADS\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Coding Projects\IT2A_AADS\Queue\Queue\obj\Debug\Queue.exe
+C:\Coding Projects\IT2A_AADS\Queue\Queue\obj\Debug\Queue.pdb

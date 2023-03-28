@@ -19,6 +19,7 @@ namespace Stack1
                 Console.WriteLine("Enter 0 to display the stack.");
                 Console.WriteLine("Enter 1 to push a string to the stack.");
                 Console.WriteLine("Enter 2 to pop a string from the stack.");
+                Console.WriteLine("Enter 3 to peek what is at the top of the stack");
                 Console.WriteLine(":");
                 Console.WriteLine("Enter any other number to exit.\n\n");
 
@@ -47,10 +48,16 @@ namespace Stack1
                 }
                 else if (x == 3)
                 {
-                    Console.Write("Enter a name of the new node: ");
-                    string NewName = Console.ReadLine();
-                    //TopCell.InsertLast(NewName);
 
+                    PersonCell firstCell = TopCell.Peek();
+                    if (firstCell == null)
+                    {
+                        Console.WriteLine("The stack is empty.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("The first element of the stack is: " + firstCell.Name);
+                    }
 
                 }
                 else if (x == 4)
