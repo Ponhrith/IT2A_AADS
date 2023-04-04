@@ -31,15 +31,23 @@ namespace Queue
 
                 if (x == 0)
                 {
-
+                    Console.WriteLine("Display the Queue: ");
+                    for (Cell cell = TopSentinel; cell != null; cell = cell.Next)
+                    {
+                        Console.WriteLine(cell.Value);
+                    }
                 }
                 else if (x == 1)
                 {
-
+                    Console.Write("Enter a name of the string to be enqueue onto the queue: ");
+                    string NewName = Console.ReadLine();
+                    TopSentinel.enqueue(TopSentinel, NewName);
                 }
                 else if (x == 2)
                 {
-
+                    Console.Write("Enter a name of the string to be dequeue from the queue: ");
+                    string Delete = Console.ReadLine();
+                    TopSentinel.dequeue(TopSentinel, Delete);
                 }
                 else break;
                 Console.WriteLine("Press space bar to continue.");
