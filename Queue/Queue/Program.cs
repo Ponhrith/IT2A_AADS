@@ -24,7 +24,7 @@ namespace Queue
                 Console.Clear();
                 Console.WriteLine("Enter 0 to display the Queue");
                 Console.WriteLine("Enter 1 to EnQueue a string");
-                Console.WriteLine("Enter 0 to DeQueue");
+                Console.WriteLine("Enter 2 to DeQueue");
 
                 Console.WriteLine("Enter any other number to exit.\n\n");
                 x = int.Parse(Console.ReadLine());
@@ -45,9 +45,7 @@ namespace Queue
                 }
                 else if (x == 2)
                 {
-                    Console.Write("Enter a name of the string to be dequeue from the queue: ");
-                    string Delete = Console.ReadLine();
-                    TopSentinel.dequeue(TopSentinel, Delete);
+                    BottomSentinel.dequeue();
                 }
                 else break;
                 Console.WriteLine("Press space bar to continue.");

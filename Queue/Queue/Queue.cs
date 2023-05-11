@@ -23,7 +23,7 @@ namespace Queue
             topSentinel.Next = cell;
         }
 
-        public void dequeue(Cell topSentinel, string data)
+/*        public void dequeue(Cell topSentinel, string data)
         {
             Cell cell = topSentinel.Next; // Get the first cell in the list
 
@@ -47,6 +47,15 @@ namespace Queue
             }
             cell.Prev.Next = cell.Next;
             cell = null; // Free the memory associated with the dequeued cell
+        }*/
+
+        public void dequeue()
+        {
+            if(this.Prev != null)
+            {
+                this.Prev.Prev.Next = this;
+                this.Prev = this.Prev.Prev;
+            }
         }
 
 
